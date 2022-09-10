@@ -1,6 +1,52 @@
 body {
-  background: blue;
+  background-color: rgb(160, 235, 192);
+}
+body h1 {
+  padding-left: 350px;
+  font-family: Arial;
+}
+body h3 {
+  margin-top: 0%;
+  font-size: 90px;
+  font-family: palace script MT;
+  float: right;
+  margin-right: 480px;
+  margin-top: 50px;
 }
 body h2 {
-  color: red;
+  padding-left: 325px;
+  font-family: arial;
+  display: flex;
+  float: left;
+  top: 0%;
+  font-size: 29px;
+  font-weight: lighter;
+}
+body img {
+  position: relative;
+  left: 314px;
+  border: 45px solid whitesmoke;
+  border-width: 45px 45px 80px 45px;
+  border-radius: 5px;
+}
+body li {
+  font-size: 26px;
+  padding-left: 380px;
+}
+body l {
+  font-family: arial;
+}
+body button {
+  background-color: rgb(57, 202, 57);
+  border-color: rgb(57, 202, 57);
+}
+body ul {
+  background-color: black;
+  margin: 0%;
+  padding-left: 25px;
+  width: 100%;
+}
+body span {
+  color: white;
+  font-family: arial;
 }/*# sourceMappingURL=main.css.map */
