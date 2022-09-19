@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(175, 207, 157);
+  margin: 0 0 30px 0;
+  padding: 30px;
+}
+body h2 {
+  font-size: 70px;
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+}
+body h1 {
+  font-family: "Merriweather", serif;
+  font-size: 37px;
+  margin: 0 auto 10px auto;
+  width: 80%;
+  text-align: center;
+}
+body p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 27px;
+  text-align: center;
+}
+body ul {
+  margin: auto;
+  max-width: 500px;
+}
+body li {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+  margin: 20px 0;
+}
+body img {
+  position: relative;
+  left: 280px;
+  border: 45px solid whitesmoke;
+  border-width: 45px 45px 80px 45px;
+  border-radius: 5px;
+}
+body figure {
+  margin: auto;
+  padding: 5px;
+  width: 90%;
+  position: relative;
+}
+body h5 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 715px;
+  left: 300px;
+}/*# sourceMappingURL=main.css.map */
