@@ -1,56 +1,55 @@
-body{background-color: rgb(160, 235, 192);
-  
-       h1{
-        padding-left: 350px;
-        font-family: Arial;
-     }
-      h3{
-        margin-top: 0%;
-        font-size: 90px;
-        font-family: palace script MT;
-        float: right;
-        margin-right: 480px;
-        margin-top: 50px;
-        
-      }
-       h2{
-          padding-left: 325px;
-          font-family: arial;
-          display: flex;
-          float: left;
-          top: 0%;
-          font-size: 29px;
-          font-weight: lighter;
-       }
-       img {
-        position: relative;
-        left: 314px;
-        border: 45px solid whitesmoke;
-        border-width: 45px 45px 80px 45px;
-        border-radius: 5px;
-        }
-        li {
-         font-size: 26px;
-         padding-left: 380px;
-           }
-          l{font-family: arial;} 
-          button{
-                 
-                  background-color: rgb(57, 202, 57);
-                  border-color: rgb(57, 202, 57);
-            } 
-            ul{background-color: black;
-               margin: 0%;
-               padding-left: 25px;
-               
-               
-               width: 100%;
-        
-         
-            } 
-            span{
-               color: white;
-            font-family: arial;
-            
+body {
+   background-color: rgb(175, 207, 157);
+   margin: 0 0 30px 0;
+   padding: 30px;
+ }
+ .primary-header {
+   font-size: 70px;
+   text-align: center;
+   font-family: "Great Vibes", cursive;
+ }
+ .secondary-header {
+   font-family: "Merriweather", serif;
+   font-size: 37px;
+   margin: 0 auto 10px auto;
+   width: 80%;
+   text-align: center;
+ }
+ .primary-desc {
+   font-family: "Source Sans Pro", sans-serif;
+   font-size: 27px;
+   text-align: center;
+ }
+.list {
+   margin: auto;
+   max-width: 500px;
+
+   &__item {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 25px;
+    margin: 20px 0;
+  }
+ }
+
+.figure {
+   margin: auto;
+   padding: 5px;
+   width: 90%;
+   position: relative;
+
+   &__image {
+    position: relative;
+    left: 280px;
+    border: 45px solid whitesmoke;
+    border-width: 45px 45px 80px 45px;
+    border-radius: 5px;
    }
-}
+
+   &__heading {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 715px;
+    left: 300px;
+   }
+ }
