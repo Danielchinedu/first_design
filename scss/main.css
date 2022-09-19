@@ -3,46 +3,51 @@ body {
   margin: 0 0 30px 0;
   padding: 30px;
 }
-body h2 {
+
+.primary-header {
   font-size: 70px;
   text-align: center;
   font-family: "Great Vibes", cursive;
 }
-body h1 {
+
+.secondary-header {
   font-family: "Merriweather", serif;
   font-size: 37px;
   margin: 0 auto 10px auto;
   width: 80%;
   text-align: center;
 }
-body p {
+
+.primary-desc {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 27px;
   text-align: center;
 }
-body ul {
+
+.list {
   margin: auto;
   max-width: 500px;
 }
-body li {
+.list__item {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 25px;
   margin: 20px 0;
 }
-body img {
+
+.figure {
+  margin: auto;
+  padding: 5px;
+  width: 90%;
+  position: relative;
+}
+.figure__image {
   position: relative;
   left: 280px;
   border: 45px solid whitesmoke;
   border-width: 45px 45px 80px 45px;
   border-radius: 5px;
 }
-body figure {
-  margin: auto;
-  padding: 5px;
-  width: 90%;
-  position: relative;
-}
-body h5 {
+.figure__heading {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 20px;
   position: absolute;
