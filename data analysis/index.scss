@@ -1,0 +1,211 @@
+$color-primary: rgb(94, 168, 192);
+
+.navigation_item {
+  display: flex;
+  float: right;
+  gap: 15px;
+  &-list {
+    list-style-type: none;
+    margin-right: 30px;
+
+    &-link {
+      text-decoration: none;
+      color: black;
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+}
+.header {
+  &__heading {
+    font-size: 70px;
+    padding-top: 200px;
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $color-primary;
+  }
+  &__paragraph {
+    margin-left: 200px;
+    font-size: 20px;
+  }
+  &__image {
+    margin-top: 60px;
+  }
+}
+#image_size {
+  width: 100%;
+  height: 450px;
+}
+.card {
+  &_primary {
+    height: 120rem;
+    width: 800px;
+    top: 60rem;
+    left: 20%;
+    right: 40%;
+    position: absolute;
+    background-color: white;
+    font-family: sans-serif;
+    box-shadow: 0px 10px 10px 10px $color-primary;
+  }
+  &_texts {
+    margin-left: 50px;
+    &-heading {
+      font-size: 40px;
+      color: $color-primary;
+    }
+  }
+  &_secondary {
+    display: flex;
+    font-family: sans-serif;
+    font-size: 20px;
+    gap: 15px;
+    &-date {
+      font-size: 12px;
+    }
+    &-address {
+      color: rgb(94, 168, 192);
+      font-size: 12px;
+    }
+  }
+  &_tertiary {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 18px;
+
+    &-text {
+    }
+    &-link {
+      position: relative;
+
+      font-size: 12px;
+      text-decoration: none;
+      color: $color-primary;
+    }
+  }
+}
+.div_main {
+  display: flex;
+  gap: 15px;
+  margin-top: 100px;
+}
+#div_main-image {
+  width: 392px;
+  height: 250px;
+}
+.plank_card {
+  &-one {
+    top: 550px;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    left: 33px;
+    padding: 10px;
+    box-shadow: 0px 10px 10px 0px $color-primary;
+  }
+  &-two {
+    top: 550px;
+    height: 200px;
+    width: 300px;
+    background-color:  white;
+    position: absolute;
+    left: 440px;
+    padding: 10px;
+    box-shadow: 0px 10px 10px 0px $color-primary;
+  }
+  &-heading{
+    color: $color-primary;
+  }
+  &-three {
+    top: 1100px;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    left: 33px;
+    padding: 10px;
+    box-shadow: 0px 10px 10px 0px $color-primary;
+  }
+  &-four {
+    top: 1100px;
+    height: 200px;
+    width: 300px;
+    background-color:  white;
+    position: absolute;
+    left: 440px;
+    padding: 10px;
+    box-shadow: 0px 10px 10px 0px $color-primary;
+  }
+  &-five {
+    top: 1640px;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    left: 33px;
+    padding: 10px;
+    box-shadow: 0px 10px 10px 0px $color-primary;
+  }
+  &-six {
+    top: 1640px;
+    height: 200px;
+    width: 300px;
+    background-color:  white;
+    position: absolute;
+    left: 440px;
+    padding: 10px;
+    box-shadow: 0px 10px 10px 0px $color-primary;
+  }
+}
+.section_secondary{
+  margin-top: 300px;
+}
+.section_tertiary{
+  margin-top: 300px;
+}
+.footer{
+  width:100%;
+  top: 3000px;
+  height: 500px;
+  background-color:white;
+  position:absolute;
+  box-shadow: 10px 10px 10px 10px $color-primary;
+  &_one{
+    margin-top: 50px;
+    justify-content: space-around;
+    display: flex;
+  }
+  &_two{
+    background-color: $color-primary;
+    height: 350px;
+    width: 100%;
+    &-text{
+      padding-top: 90px;
+      text-align: center;
+      &-header{
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+      }
+    }
+  }
+  .Input_email{
+    width: 160px;
+    height: 40px;
+    border-radius: 1000px;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+  }
+ &_button{
+  border: 1px solid white;
+  background-color:$color-primary ;
+  border-radius: 100rem;
+  color: white;
+  font-size: 15px;
+  width:100px;
+  height: 40px;
+ }
+}
